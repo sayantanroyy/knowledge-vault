@@ -338,12 +338,12 @@ Add a feedback system so the AI learns what works
 **How it looks:**
 ```
 Was this answer helpful?
-   ðŸ‘ Yes        ðŸ‘Ž No
+    Yes         No
 ```
 
 **Why?** 
-- If user clicks ðŸ‘, we know this answer was good!
-- If user clicks ðŸ‘Ž, we can improve next time!
+- If user clicks Yes, we know this answer was good!
+- If user clicks No , we can improve next time!
 
 ---
 
@@ -355,7 +355,7 @@ Was this answer helpful?
 ```
 Question: "Health benefits of apples?"
 Answer: "Apples are rich in fiber..."
-Rating: ðŸ‘ (Helpful)
+Rating: 4* (Helpful)
 Timestamp: Dec 20, 2025, 3:15 PM
 ```
 
@@ -366,7 +366,7 @@ Timestamp: Dec 20, 2025, 3:15 PM
 
 ---
 
-## ðŸ”§ **Behind-the-Scenes: The Technical Parts (Explained Simply)**
+##  **Behind-the-Scenes: The Technical Parts (Explained Simply)**
 
 ### **What Is "Backend"?**
 
@@ -443,7 +443,7 @@ Think of it like this:
 
 ---
 
-## ðŸ“Š **How It All Works Together (The Full Journey)**
+## **How It All Works Together (The Full Journey)**
 
 Let's follow what happens when you ask a question:
 
@@ -453,13 +453,13 @@ STEP 1: YOU ASK A QUESTION
 â”‚ "What time should I eat    â”‚
 â”‚  breakfast?"               â”‚
 â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
-                â†“
+                
 STEP 2: SYSTEM TURNS IT INTO NUMBERS
 â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
 â”‚ Question becomes:          â”‚
 â”‚ [0.2, 0.5, 0.1, ...]       â”‚
 â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
-                â†“
+                
 STEP 3: FIND SIMILAR DOCUMENTS
 â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
 â”‚ "Which of my 50 docs are   â”‚
@@ -472,21 +472,21 @@ STEP 3: FIND SIMILAR DOCUMENTS
 â”‚ Top 5 similar: Doc1, Doc3, â”‚
 â”‚ Doc7, Doc12, Doc18         â”‚
 â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
-                â†“
+                
 STEP 4: SEND TO CHATGPT-4
 â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
 â”‚ "Here are 5 docs. Now      â”‚
 â”‚ answer: What time should   â”‚
 â”‚ I eat breakfast?"          â”‚
 â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
-                â†“
+                
 STEP 5: AI WRITES ANSWER
 â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
 â”‚ "Based on nutritionists,   â”‚
 â”‚ breakfast is best between  â”‚
 â”‚ 7 AM and 9 AM."            â”‚
 â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
-                â†“
+                
 STEP 6: SHOW ANSWER WITH SOURCES
 â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
 â”‚ ANSWER:                    â”‚
@@ -496,14 +496,14 @@ STEP 6: SHOW ANSWER WITH SOURCES
 â”‚ CONFIDENCE: 88%            â”‚
 â”‚                            â”‚
 â”‚ SOURCE:                    â”‚
-â”‚ ðŸ“„ "Nutrition Science"     â”‚
+â”‚ "Nutrition Science"        â”‚
 â”‚    (Doc #1)                â”‚
 â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
 ```
 
 ---
 
-## ðŸ’° **Understanding Costs (Money Matters!)**
+##  **Understanding Costs (Money Matters!)**
 
 **Why should you care about costs?**
 
@@ -528,7 +528,7 @@ Let's say someone uses it with 50 documents and asks 100 questions:
 
 ---
 
-## ðŸŽ¯ **Success Metrics - How Do We Know It Works?**
+##  **Success Metrics - How Do We Know It Works?**
 
 **Metrics** = Ways to measure if your project is good
 
@@ -544,7 +544,7 @@ Let's say someone uses it with 50 documents and asks 100 questions:
 
 ---
 
-## ðŸš€ **What We Learned (Big Lessons)**
+##  **What We Learned (Big Lessons)**
 
 After building this project, here are the important lessons:
 
@@ -573,7 +573,7 @@ After building this project, here are the important lessons:
 
 ---
 
-## ðŸŽ“ **Real-World Applications**
+##  **Real-World Applications**
 
 **Who would use KnowledgeVault?**
 
@@ -585,21 +585,21 @@ After building this project, here are the important lessons:
 
 ---
 
-## ðŸ“ **Quick Review - Remember These 14 Steps?**
+## **Quick Review - Remember These 14 Steps?**
 
 ### **Week 1 (Upload System)**
-1. âœ… Understand different file types
-2. âœ… Create upload button
-3. âœ… Show "processing" message
-4. âœ… Show success message
+1.  Understand different file types
+2.  Create upload button
+3.  Show "processing" message
+4.  Show success message
 
 ### **Week 2-3 (Smart Search)**
-5. âœ… Turn words into numbers
-6. âœ… Find similar documents
-7. âœ… Ask AI to answer
-8. âœ… Create search box
-9. âœ… Add loading animation
-10. âœ… Show answer with sources
+5.  Turn words into numbers
+6.  Find similar documents
+7.  Ask AI to answer
+8.  Create search box
+9.  Add loading animation
+10. Show answer with sources
 
 ### **Week 3-4 (Document Management)**
 11. âœ… Show list of documents
@@ -613,19 +613,19 @@ After building this project, here are the important lessons:
 
 ---
 
-## ðŸŽª **What Makes This Project Special (For Your Portfolio)**
+##  **What Makes This Project Special (For Your Portfolio)**
 
 This project shows that you understand:
 
-1. **AI/ML Concepts** â† You know how embeddings and RAG work!
-2. **Full-Stack Development** â† Frontend, Backend, Database!
-3. **Product Thinking** â† You thought about user needs!
-4. **Cost Management** â† You know real products cost money!
-5. **User Experience** â† You made it easy to use!
+1. **AI/ML Concepts**  You know how embeddings and RAG work!
+2. **Full-Stack Development**  Frontend, Backend, Database!
+3. **Product Thinking**  You thought about user needs!
+4. **Cost Management**  You know real products cost money!
+5. **User Experience**  You made it easy to use!
 
 ---
 
-## ðŸ”® **Future Ideas (What's Next?)**
+##  **Future Ideas (What's Next?)**
 
 After you finish the MVP (Minimum Viable Product), here are cool features to add:
 
@@ -640,7 +640,7 @@ After you finish the MVP (Minimum Viable Product), here are cool features to add
 
 ---
 
-## âœ¨ **You Did It!**
+##¨ **You Did It!**
 
 Now you understand how to build a **real AI product**! 
 
@@ -650,11 +650,11 @@ The key is breaking it down into small steps:
 - Week 3-4: Document management
 - Week 4: Feedback system
 
-Each week builds on the last one. That's how real projects get built! ðŸŽ‰
+Each week builds on the last one. That's how real projects get built! 
 
 ---
 
-## ðŸ“š **Extra: Glossary of Big Words**
+## **Extra: Glossary of Big Words**
 
 | Word | Simple Explanation |
 |------|-------------------|
