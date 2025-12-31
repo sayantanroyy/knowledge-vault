@@ -91,12 +91,12 @@ Visit http://localhost:3000
 
 | Week | Focus | Status |
 |------|-------|--------|
-| Week 1 | Upload System | âœ… Complete |
-| Week 2-3 | Smart Search & RAG | âœ… Complete |
-| Week 3-4 | Document Management | âœ… Complete |
-| Week 4 | Feedback System | âœ… Complete |
+| Week 1 | Upload System | Complete |
+| Week 2-3 | Smart Search & RAG | Complete |
+| Week 3-4 | Document Management | Complete |
+| Week 4 | Feedback System | Complete |
 
-## ðŸ§ª Testing
+## Testing
 
 Run tests with:
 \`\`\`bash
@@ -104,7 +104,7 @@ cd backend
 pytest tests/
 \`\`\`
 
-## ðŸ“ˆ Key Metrics
+## Key Metrics
 
 | Metric | Target | Achieved |
 |--------|--------|----------|
@@ -113,7 +113,7 @@ pytest tests/
 | User Satisfaction | 4+ / 5 | 4.2 / 5 â­ |
 | Cost per Query | < $0.15 | $0.12 â­ |
 
-## ðŸŽ“ What I Learned
+## What I Learned
 
 1. **Chunking strategy matters** - 1000 tokens with overlap works best
 2. **Confidence scores build trust** - Users love knowing how sure the AI is
@@ -121,7 +121,7 @@ pytest tests/
 4. **Cost management is real** - APIs aren't free, optimization is important
 5. **Feedback loops improve quality** - User ratings help identify issues
 
-## ðŸ”® Future Enhancements
+## Future Enhancements
 
 - [ ] Conversation mode (follow-up questions)
 - [ ] Collections/folders for organizing docs
@@ -131,22 +131,22 @@ pytest tests/
 - [ ] Multi-language support
 - [ ] Reranking for better relevance
 
-## ðŸ¤ Contributing
+## Contributing
 
 Contributions welcome! See [CONTRIBUTING.md](./.github/CONTRIBUTING.md) for guidelines.
 
-## ðŸ“„ License
+## License
 
 MIT License - see [LICENSE](./LICENSE) file
 
-## ðŸ‘¤ Author
+## Author
 
-Built by [Your Name]
-- GitHub: [@your-username](https://github.com/your-username)
-- Portfolio: [your-website.com](https://your-website.com)
-- LinkedIn: [your-profile](https://linkedin.com/in/your-profile)
+Built by SAYANTAN ROY
+- GitHub: [@sayantanroyy](https://github.com/sayantanroyy)
+- Portfolio: 
+- LinkedIn: https://www.linkedin.com/in/sayantan-roy-iima/
 
-## ðŸ“ž Questions?
+## Questions?
 
 Feel free to open an [issue](../../issues) or reach out!
 
