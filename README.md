@@ -109,7 +109,7 @@ pytest tests/
 | Metric | Target | Achieved |
 |--------|--------|----------|
 | Response Time | < 3 sec | 2.1 sec |
-| Accuracy | 90%+ | 92% â­ |
+| Accuracy | 90%+ | 92% |
 | User Satisfaction | 4+ / 5 | 4.2 / 5 |
 | Cost per Query | < $0.15 | $0.12 |
 ## What I Learned
