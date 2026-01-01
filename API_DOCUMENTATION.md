@@ -1,4 +1,5 @@
- KnowledgeVault AI - API Documentation
+```markdown
+KnowledgeVault AI - API Documentation
 
 Base URL: `http://localhost:8000` (development)
 
