@@ -16,7 +16,6 @@ pip install -r requirements.txt
 ```bash
 uvicorn app.main:app --reload
 ```
-
 Server runs on http://localhost:8000
 API docs: http://localhost:8000/docs
 ```
