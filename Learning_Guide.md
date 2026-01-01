@@ -666,4 +666,4 @@ Each week builds on the last one. That's how real projects get built!
 
 ---
 
-**Good luck building! Remember: Every expert was once a beginner! ðŸš€**
+**Good luck building! Remember: Every expert was once a beginner! **
