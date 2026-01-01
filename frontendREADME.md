@@ -1,5 +1,5 @@
 mkdir -p frontnd/
-Create `frontend/README.md`:
+
 
 ```markdown
 # KnowledgeVault Frontend
