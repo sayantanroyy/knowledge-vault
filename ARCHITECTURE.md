@@ -6,7 +6,7 @@
 User > Frontend (React) > Backend (FastAPI)  .External Services
                             
                     PostgreSQL + ChromaDB
-```
+
 ## Component Breakdown
 
 ### Frontend (React + Next.js)
